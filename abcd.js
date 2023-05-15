@@ -26,10 +26,16 @@ for(var i=0; i<array.length;i++)
 const myFunction=(p1,p2)=>{
     var array=["ankit","laps",10,20,true,false]
 
-for(var i=0; i<array.length;i++)
-{
-    console.log(`at index : ${i} , value = ${array[i]}`)
-}
+// for(var i=0; i<array.length;i++)
+// {
+//     console.log(`at index : ${i} , value = ${array[i]}`)
+// }
+array.forEach((item,index)=>{
+    if (typeof item == 'string')
+    {
+        console.log(`item ; ${item} , index : ${index}`)
+    }
+})
  return p1*p2
 }
 console.log(myFunction(10,20))

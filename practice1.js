@@ -1,4 +1,5 @@
-// dataypes
+const prac2=require("./practice2");// dataypes
+console.log(prac2.fop());
 // var x = "Ankit";
 // const y = 10;
 // let z = 10;
